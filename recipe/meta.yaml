@@ -1,6 +1,6 @@
 {% set name = "flake8-pep3101" %}
-{% set version = "0.6" %}
-{% set sha256 = "c4c846e25052cb10d37ed542c122c068a96a14188aeb9841cab4a985adc819c2" %}
+{% set version = "1.0" %}
+{% set sha256 = "ed2bfea05aa22211b28a1dafe88ebeadb3c8395becbc652c9fc7e36994eeec5a" %}
 
 package:
   name: {{ name|lower }}
@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python
-    - flake8
+    - flake8 >=3.0
 
 test:
   commands:
