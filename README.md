@@ -14,9 +14,7 @@ Summary: Check for uses of old % formatting rather than .format() method
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-pep3101-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-pep3101-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/flake8-pep3101-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/flake8-pep3101-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/flake8-pep3101-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/flake8-pep3101-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/flake8-pep3101-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/flake8-pep3101-feedstock)
 
 Current release info
 ====================
