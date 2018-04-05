@@ -1,6 +1,6 @@
 {% set name = "flake8-pep3101" %}
-{% set version = "1.2" %}
-{% set sha256 = "1ba98a8a6d89ce54645d967fa831503f4b020558736563178a2ea48b72e000d8" %}
+{% set version = "1.2.1" %}
+{% set sha256 = "493821d6bdd083794eb0691ebe5b68e5c520b622b269d60e54308fb97440e21a" %}
 
 package:
   name: {{ name|lower }}
