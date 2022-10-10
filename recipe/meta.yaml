@@ -26,7 +26,7 @@ requirements:
 
 test:
   commands:
-    - 'flake8 --version | grep flake8_pep3101:'
+    - 'flake8 --version | grep flake8-pep3101:'
 
 about:
   home: https://github.com/gforcada/flake8-pep3101
