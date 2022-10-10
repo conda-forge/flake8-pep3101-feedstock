@@ -1,6 +1,5 @@
 {% set name = "flake8-pep3101" %}
 {% set version = "2.0.0" %}
-{% set sha256 = "ae2ee1758734a473ca971b4bf9ff09c961b6099916db91fdb6b9718328dfcacb" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: ae2ee1758734a473ca971b4bf9ff09c961b6099916db91fdb6b9718328dfcacb
 
 build:
   noarch: python
@@ -18,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
     - setuptools
   run:
-    - python
+    - python >=3.7
     - flake8 >=3.0
 
 test:
@@ -31,7 +30,7 @@ test:
 
 about:
   home: https://github.com/gforcada/flake8-pep3101
-  license: GPL-2.0
+  license: GPL-2.0-only
   license_family: GPL2
   license_file: LICENSE
   summary: Check for uses of old % formatting rather than .format() method
