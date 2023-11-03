@@ -1,11 +1,11 @@
-About flake8-pep3101
-====================
+About flake8-pep3101-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-pep3101-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/gforcada/flake8-pep3101
 
-Package license: GPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/flake8-pep3101-feedstock/blob/main/LICENSE.txt)
+Package license: GPL-2.0-only
 
 Summary: Check for uses of old % formatting rather than .format() method
 
