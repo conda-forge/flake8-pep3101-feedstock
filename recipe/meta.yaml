@@ -1,6 +1,6 @@
 {% set name = "flake8-pep3101" %}
-{% set version = "3.0.0" %}
-{% set python_min = "3.10" %}
+{% set version = "3.1.0" %}
+{% set python_min = "3.11" %}
 
 package:
   name: {{ name|lower }}
@@ -8,8 +8,8 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 15f5978cee8983912a55af16a66f3518eead3ed2df65e3ee5735451e4fe344db
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: 03d6a3503391cb0fe4cca838767443deb5185c5c1d9876d6aae73e7d7f890461
 
 build:
   noarch: python
